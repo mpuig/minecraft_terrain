@@ -6,6 +6,7 @@ The next step was to be able to send the information to Minecraft. To solve this
 
 # Setup
 These are the main steps:
+
 1. Python virtual environment
 2. Canarymod
 3. Raspberry Juice Plugin
@@ -14,8 +15,11 @@ These are the main steps:
 6. Play
 
 ## Step 1. Create the Python virtual environment and install needed packages
+
+```
 mkvirtualenv minecraft_terrain
 pip install -r requirements.txt
+```
 
 ## Step 2. Download and install Canarymod Minecraft Server
 - Create a folder for Canarymod.
@@ -36,8 +40,9 @@ http://www.icgc.cat/appdownloads/
 ![alt dem_selector](https://raw.githubusercontent.com/mpuig/minecraft_terrain/master/screenshots/dem_selector.png)
 
 - build a VRT from all downloaded datasets
+```
 gdalbuildvrt -te 395000 4603000 405500 4607180 montserrat.vrt dems/*.txt
-
+```
 
 ## Step 5. Run everything together
 - Start up Canarymod (with the Raspberry Juice Plugin)
