@@ -47,6 +47,6 @@ gdalbuildvrt -te 395000 4603000 405500 4607180 montserrat.vrt dems/*.txt
 
 ## Step6. Run Minecraft and fly
 
-![alt tag](https://raw.githubusercontent.com/mpuig/minecraft_terrain/main/screenshots/flying1.png)
+![alt flying](https://raw.githubusercontent.com/mpuig/minecraft_terrain/master/screenshots/flying1.png)
 
-![alt tag](https://raw.githubusercontent.com/mpuig/minecraft_terrain/main/screenshots/flying2.png)
+![alt flying](https://raw.githubusercontent.com/mpuig/minecraft_terrain/master/screenshots/flying2.png)
