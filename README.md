@@ -33,7 +33,7 @@ This is necessary to run your Minecraft with an API.
 For example, in Barcelona Area, the ICGC has 5x5 Elevation Models
 http://www.icgc.cat/appdownloads/
 
-![alt tag](https://raw.githubusercontent.com/mpuig/minecraft_terrain/main/screenshots/dem_selector.png)
+![alt dem_selector](https://raw.githubusercontent.com/mpuig/minecraft_terrain/master/screenshots/dem_selector.png)
 
 - build a VRT from all downloaded datasets
 gdalbuildvrt -te 395000 4603000 405500 4607180 montserrat.vrt dems/*.txt
